@@ -1,0 +1,18 @@
+.Right {
+    float: right;
+}
+.Left {
+    float: left;
+}
+.Clearfix:before,
+.Clearfix:after {
+    content: "";
+    display: table;
+}
+.Clearfix:after {
+    clear: both;
+}
+.Clearfix {
+    zoom: 1;
+    /* IE6&7 */
+}

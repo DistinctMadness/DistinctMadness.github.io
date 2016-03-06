@@ -1,0 +1,139 @@
+body {
+    background-color: #000;
+    font-family: "Arial";
+    color: white;
+    margin: 0px;
+}
+
+#Head {
+    margin: 0px;
+    background-color: black;
+    width: 100%;
+}
+
+#Body {
+    width: 75%;
+    margin: 0 12.5%;
+    text-align: justify;
+    background-color: #000;
+}
+
+#Special {
+    width: 1427px;
+    margin: 0 12.5%;
+    text-align: justify;
+    background-color: #000;
+}
+
+h1,
+h3 {
+    text-align: center;
+    padding: 5px 0px;
+    background-color: #002b4b;
+    border-bottom: #1872ab solid 1px;
+}
+
+h2 {
+    font-size: 1.6em;
+    text-align: center;
+}
+
+h4 {
+    font-size: 1.4em;
+    text-align: center;
+    margin-bottom: 81%;
+    margin-top: 32%;
+}
+
+#Left {
+    Width: 40%
+}
+
+#Middle {
+    Width: 20%
+}
+
+#Right {
+    Width: 40%
+}
+
+
+/*
+---------------------------------
+Tables
+---------------------------------
+*/
+
+Table,
+tr,
+td,
+th {
+    border-bottom: 2px solid #002b4b;
+    border-collapse: collapse;
+    padding: 20px;
+}
+
+table {
+    width: 100%
+}
+
+th {
+    background-color: #002b4b;
+}
+
+.Large {
+    padding: 20px 300px 20px 100px;
+}
+
+.Schedule {
+    text-align: center;
+}
+
+.Schedule td,
+.Schedule th {
+    width: 33.333%;
+}
+
+
+/*
+---------------------------------
+Nav Bar
+---------------------------------
+*/
+
+#Inline li {
+    font-size: 1.2em;
+    display: inline-block;
+    background-color: black;
+    margin: 0px;
+    width: 14%;
+    text-align: center;
+}
+
+#Inline .R {
+    text-align: right;
+}
+
+#Inline .L {
+    text-align: center;
+}
+
+#Inline a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+    color: #ccc;
+}
+
+#Inline {
+    width: 100%;
+    margin 0px;
+}
+
+nav {
+    width: 84%;
+    margin: 0 0 0 9%;
+    position: relative;
+    background-color: black;
+}
